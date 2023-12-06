@@ -46,7 +46,7 @@ Made for Project Mdtest V5.
 - Multi-Number/User support (New!)
   - Previously Mdtest could support only one WhatsApp number, but now you can have as many as you want
 - Receive details of incoming messages as Tasker variables. Can use this for automated replies.  
-  **-> Be sure to check [VARIABLE.md](https://github.com/HunterXProgrammer/Tasker-MdtestV5/blob/main/VARIABLES.md) for all the available variables.**  
+  **-> Be sure to check [VARIABLE.md](https://github.com/Jonny1987/Tasker-MdtestV5/blob/main/VARIABLES.md) for all the available variables.**  
   Current list of message types that are supported and can be received as Tasker variables:-
   - **Text message**
     - text body
@@ -111,7 +111,7 @@ Made for Project Mdtest V5.
       The media files are stored in **`~/whatsmeow5/mdtest/media`**
 - Added support to send link preview messages.  
   Only for websites that support the **[Open Graph](https://ogp.me/)** protocol.  
-  **Eg:- `https://github.com/HunterXProgrammer/Tasker-MdtestV5`**
+  **Eg:- `https://github.com/Jonny1987/Tasker-MdtestV5`**
 
 # Disclaimer
 You are responsible for what you do with this.
@@ -145,18 +145,18 @@ CLI Setup:-
 
 1\) Install and open **[Termux](https://f-droid.org/en/packages/com.termux/)** in your device.
 
-2\) Grab the pre-compiled  binary from **[releases](https://github.com/HunterXProgrammer/Tasker-MdtestV5/releases/tag/MdtestV5-Assets)** or use the build script to compile it yourself in Termux.
+2\) Grab the pre-compiled  binary from **[releases](https://github.com/Jonny1987/Tasker-MdtestV5/releases/tag/MdtestV5-Assets)** or use the build script to compile it yourself in Termux.
 
 **Eg:-** Depending on your device architecture(use `uname -m` to find out), you can download for `arm`,`arm64`(aarch64),`x86` and `x86_64` like this -
 
-    arch=arm64 && curl -L -o "mdtest-${arch}.zip" "https://github.com/HunterXProgrammer/Tasker-MdtestV5/releases/download/MdtestV5-Assets/mdtest-${arch}.zip" && mkdir -p ~/whatsmeow5/mdtest && unzip -o -d ~/whatsmeow5/mdtest mdtest-${arch}.zip && chmod -R 744 ~/whatsmeow5/mdtest/mdtest
+    arch=arm64 && curl -L -o "mdtest-${arch}.zip" "https://github.com/Jonny1987/Tasker-MdtestV5/releases/download/MdtestV5-Assets/mdtest-${arch}.zip" && mkdir -p ~/whatsmeow5/mdtest && unzip -o -d ~/whatsmeow5/mdtest mdtest-${arch}.zip && chmod -R 744 ~/whatsmeow5/mdtest/mdtest
 
 OR
 
 You can build and compile it by yourself in Termux -
 
     rm -rf Tasker-MdtestV5 &>/dev/null
-    git clone https://github.com/HunterXProgrammer/Tasker-MdtestV5
+    git clone https://github.com/Jonny1987/Tasker-MdtestV5
     cd Tasker-MdtestV5
     bash build_whatsmeow5.sh
     cd ..

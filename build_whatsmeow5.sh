@@ -13,7 +13,7 @@ tmpdir="$(mktemp -d)"
 
 cd $tmpdir
 
-git clone https://github.com/tulir/whatsmeow
+git clone https://github.com/Jonny1987/whatsmeow
 
 if [ -n $TERM ]; then
     clear
