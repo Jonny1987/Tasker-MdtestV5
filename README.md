@@ -1,3 +1,7 @@
+This is a fork of the original Tasker-Mdtest which fixes the bug of messages that are sent to Announcements groups in whatsapp communities not being able to be reacted to. This is done by using a forked version of whatsmeow which fixes this issue, and then changing references to the whatsmeow github repo in Tasker-Mdtest5 to refer to this fork instead and also references to the Tasker-Mdtest5 github repo to refer to this fork of Tasker-Mdtest5 github repo instead.
+
+Also, references to this Tasker-Mdtest5 github repo after Tasker-Mdtest5 is installed on Tasker need to be changed too.
+
 # Description
 Send WhatsApp Text/Images/Videos/PDF/Documents/Voice/Poll Messages, plus many more types, automatically using Tasker.
 
